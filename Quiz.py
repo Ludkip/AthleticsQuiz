@@ -1,1 +1,46 @@
+import random
 
+questions = ["q1", "q2", "q3"]
+
+q1 = ("What is the mens pole vault world record?")
+q1a = ["a. 6 m", "b. 6,18 m", "c. 5,54 m", "d. 20,71 m"]
+
+q2 = ("Who has the mens triple jump world record?")
+q2a = ["a. Christian Taylor", "b. Carl Lewis", "c. Jonathan Edwards", "d. Mike Powell"]
+
+q3 = ("How long is a full outdoor track?")
+q3a =  ["a. 200 m", "b. 100 m", "c. 300 m", "d. 400 m"]
+
+qvalue = random.choice(questions)
+
+if qvalue == "q1":
+    print (q1)
+    print (q1a)
+    answer = input()
+    print (answer)
+    if answer == "b":
+        print ("Correct answer")
+    
+    else:
+        print ("Wrong answer")
+
+elif qvalue == "q2":
+    print (q2)
+    print (q2a)
+    answer = input()
+    if answer == "c":
+        print ("Correct answer")
+
+    else:
+        print ("Wrong answer")
+
+if qvalue == ("q3"):
+    print (q3)
+    print (q3a)
+    answer = input()
+    if answer == "d":
+        print ("Correct answer")
+    
+    else:
+        print ("Wrong answer")
+    
