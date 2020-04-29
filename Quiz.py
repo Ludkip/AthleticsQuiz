@@ -2,8 +2,8 @@ import random
 
 questions = ["q1", "q2", "q3"]
 
-q1 = ("What is the mens pole vault world record?")
-q1a = ["a. 6 m", "b. 6,18 m", "c. 5,54 m", "d. 20,71 m"]
+qu1 = {"question" : "What is the mens pole vault world record?", "correcta" : "b", "answers" : {"a" : "a. 6 m", "b" : "b. 6,18 m","c" : "c. 5,54 m", "d" : "d. 20,71 m"}}
+correcta = "b"
 
 q2 = ("Who has the mens triple jump world record?")
 q2a = ["a. Christian Taylor", "b. Carl Lewis", "c. Jonathan Edwards", "d. Mike Powell"]
@@ -14,13 +14,15 @@ q3a =  ["a. 200 m", "b. 100 m", "c. 300 m", "d. 400 m"]
 qvalue = random.choice(questions)
 
 if qvalue == "q1":
-    print (q1)
-    print (q1a)
-    answer = input()
-    print (answer)
-    if answer == "b":
-        print ("Correct answer")
+    print (qu1["answers"])
     
+    for a in (qu1["answers"]):
+        print(type(a))
+        print (a.values())
+    answer = input()
+    if answer == correcta:
+        print ("Correct answer")
+
     else:
         print ("Wrong answer")
 
