@@ -2,30 +2,30 @@ import random
 
 questions = ["q1", "q2", "q3"]
 
-qu1 = {"question" : "What is the mens pole vault world record?", "correcta" : "b", "answers" : {"a" : "a. 6 m", "b" : "b. 6,18 m","c" : "c. 5,54 m", "d" : "d. 20,71 m"}}
+qu1 = {"question" : "What is the mens pole vault world record?", "correcta" : "b", "alt" : {"a" : "a. 6 m", "b" : "b. 6,18 m","c" : "c. 5,54 m", "d" : "d. 20,71 m"}}
 correcta = "b"
-
+"""
 q2 = ("Who has the mens triple jump world record?")
 q2a = ["a. Christian Taylor", "b. Carl Lewis", "c. Jonathan Edwards", "d. Mike Powell"]
 
 q3 = ("How long is a full outdoor track?")
 q3a =  ["a. 200 m", "b. 100 m", "c. 300 m", "d. 400 m"]
-
-qvalue = random.choice(questions)
+"""
+#qvalue = random.choice(questions)
+qvalue="q1"
 
 if qvalue == "q1":
-    print (qu1["answers"])
+    print (qu1["question"])
     
-    for a in (qu1["answers"]):
-        print(type(a))
-        print (a.values())
+    for a in (qu1["alt"]):
+        print (qu1["alt"][a])
     answer = input()
-    if answer == correcta:
+    if answer == (qu1["correcta"]):
         print ("Correct answer")
 
     else:
         print ("Wrong answer")
-
+"""
 elif qvalue == "q2":
     print (q2)
     print (q2a)
@@ -46,3 +46,4 @@ if qvalue == ("q3"):
     else:
         print ("Wrong answer")
     
+"""
