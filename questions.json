@@ -11,7 +11,14 @@
             }
         },
         {
-
+            "question" : "Who has the mens triple jump world record?",
+            "correcta" : "c",
+            "alt" : {
+                "a" : "a. Christian Taylor",
+                "b" : "b. Carl Lewis",
+                "c" : "c. Jonathan Edwards",
+                "d" : "d. Mike Powell"
+            }
         }
     ]
 }
