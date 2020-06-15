@@ -5,7 +5,7 @@ questions_string = '''
     "questions" : [
         {
         "question" : "What is the mens pole vault world record?",
-        "correcta" : "b",
+        "correcta", : "b",
         "alt" : [
             "a" : "a. 6 m",
             "b" : "b. 6,18 m",
