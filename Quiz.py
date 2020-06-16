@@ -2,6 +2,7 @@ import random
 import json
 qnr = 0
 qlimit = False
+score = 0
 
 with open('questions.json') as f:  
     data =json.load(f)
@@ -18,6 +19,7 @@ while qlimit == False:
         answer = input()
         if answer == live['correcta']:
             print('correct answer')
+            score = score + 1
 
         else:
             print('wrong answer')
@@ -28,4 +30,11 @@ while qlimit == False:
     if qnr == 3:
         qlimit = True
 
-print ("Congratulations")
+if score == qnr:
+    print ("Congratulations! 100%")
+
+elif score > qnr/2:
+    print('Congratulations! more than 50% correct')
+
+else:
+    print('yikes...')    
