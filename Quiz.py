@@ -30,11 +30,16 @@ while qlimit == False:
     if qnr == 3:
         qlimit = True
 
+print('Your score was', score, "/", qnr)
+
 if score == qnr:
     print ("Congratulations! 100%")
 
 elif score > qnr/2:
     print('Congratulations! more than 50% correct')
+
+elif score > 0:
+    print('There is some potential...')
 
 else:
     print('yikes...')    
