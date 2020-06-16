@@ -8,7 +8,8 @@
                 "b. 6,18 m",
                 "c. 5,54 m",
                 "d. 20,71 m"
-            ]
+            ],
+            "used" : false
         },
         {
             "question" : "Who has the mens triple jump world record?",
@@ -18,7 +19,9 @@
                 "b. Carl Lewis",
                 "c. Jonathan Edwards",
                 "d. Mike Powell"
-            ]
+            ],
+            "used" : false
+            
         },
         {
             "question" : "How long is a full outdoor track?",
@@ -28,7 +31,8 @@
                 "b. 1km",
                 "c. 200m",
                 "d. 100m"
-            ]
+            ],
+            "used" : false
         }
     ]
 }
