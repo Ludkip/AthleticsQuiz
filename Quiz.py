@@ -25,7 +25,7 @@ while qlimit == False:
     else:
         qnr = qnr
     
-    if qnr > 3:
+    if qnr == 3:
         qlimit = True
 
 print ("Congratulations")
