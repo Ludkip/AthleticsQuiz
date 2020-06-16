@@ -3,32 +3,32 @@
         {
             "question" : "What is the mens pole vault world record?",
             "correcta" : "b",
-            "alt" : {
-                "a" : "a. 6 m",
-                "b" : "b. 6,18 m",
-                "c" : "c. 5,54 m",
-                "d" : "d. 20,71 m"
-            }
+            "alt" : [
+                "a. 6 m",
+                "b. 6,18 m",
+                "c. 5,54 m",
+                "d. 20,71 m"
+            ]
         },
         {
             "question" : "Who has the mens triple jump world record?",
             "correcta" : "c",
-            "alt" : {
-                "a" : "a. Christian Taylor",
-                "b" : "b. Carl Lewis",
-                "c" : "c. Jonathan Edwards",
-                "d" : "d. Mike Powell"
-            }
+            "alt" : [
+                "a. Christian Taylor",
+                "b. Carl Lewis",
+                "c. Jonathan Edwards",
+                "d. Mike Powell"
+            ]
         },
         {
             "question" : "How long is a full outdoor track?",
             "correcta" : "a",
-            "alt" : {
-                "a" : "a. 400m",
-                "b" : "b. 1km",
-                "c" : "c. 200m",
-                "d" : "d. 100m"
-            }
+            "alt"  : [
+                "a. 400m",
+                "b. 1km",
+                "c. 200m",
+                "d. 100m"
+            ]
         }
     ]
 }
