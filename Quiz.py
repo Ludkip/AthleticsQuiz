@@ -8,7 +8,6 @@ with open('questions.json') as f:
     data =json.load(f)
 
 
-
 while qlimit == False:
     live = random.choice (data['questions'])
     if (live['used']) == False:
@@ -27,7 +26,7 @@ while qlimit == False:
     else:
         qnr = qnr
     
-    if qnr == 3:
+    if qnr == 5:
         qlimit = True
 
 print('Your score was', score, "/", qnr)

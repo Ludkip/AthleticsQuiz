@@ -33,6 +33,28 @@
                 "d. 100m"
             ],
             "used" : false
+        },
+        {
+            "question" : "Where was the European Championships in 2018?",
+            "correcta" : "d",
+            "alt"  : [
+                "a. Paris",
+                "b. London",
+                "c. Rome",
+                "d. Berlin"
+            ],
+            "used" : false
+        },
+        {
+            "question" : "What is the womens 100m world record?",
+            "correcta" : "b",
+            "alt"  : [
+                "a. 9.58s",
+                "b. 10.49s",
+                "c. 10.46s",
+                "d. 10.00s"
+            ],
+            "used" : false
         }
-    ]
+    ]   
 }
