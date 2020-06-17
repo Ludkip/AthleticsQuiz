@@ -24,9 +24,9 @@ while qlimit == False:
             print('wrong answer')
 
     else:
-        qnr = qnr
-    
-    if qnr == 5:
+        pass
+
+    if qnr == 6:
         qlimit = True
 
 print('Your score was', score, "/", qnr)
