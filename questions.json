@@ -54,6 +54,17 @@
                 "c. 10.46s",
                 "d. 10.00s"
             ],
+            "used" : false        
+        },
+        {
+            "question" : "Who won the mens 400m in the 2016 olympics?",
+            "correcta" : "c",
+            "alt"  : [
+                "a. Karsten Warholm",
+                "b. Steven Gardiner",
+                "c. Wayde van Niekerk",
+                "d. Kirani James"
+            ],
             "used" : false
         }
     ]   
