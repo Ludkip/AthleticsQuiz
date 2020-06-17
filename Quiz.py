@@ -7,7 +7,6 @@ score = 0
 with open('questions.json') as f:  
     data =json.load(f)
 
-
 while qlimit == False:
     live = random.choice (data['questions'])
     if (live['used']) == False:
