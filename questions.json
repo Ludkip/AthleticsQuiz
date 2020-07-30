@@ -1,6 +1,7 @@
 {
     "questions": [
         {
+            "question_nr" : 1,
             "question" : "What is the mens pole vault world record?",
             "correcta" : "b",
             "alt" : [
@@ -12,6 +13,7 @@
             "used" : false
         },
         {
+            "question_nr" : 2,
             "question" : "Who has the mens triple jump world record?",
             "correcta" : "c",
             "alt" : [
@@ -24,6 +26,7 @@
             
         },
         {
+            "question_nr" : 3,
             "question" : "How long is a full outdoor track?",
             "correcta" : "a",
             "alt"  : [
@@ -35,6 +38,7 @@
             "used" : false
         },
         {
+            "question_nr" : 4,
             "question" : "Where was the European Championships in 2018?",
             "correcta" : "d",
             "alt"  : [
@@ -46,6 +50,7 @@
             "used" : false
         },
         {
+            "question_nr" : 5,
             "question" : "What is the womens 100m world record?",
             "correcta" : "b",
             "alt"  : [
@@ -57,6 +62,7 @@
             "used" : false        
         },
         {
+            "question_nr" : 6,
             "question" : "Who won the mens 400m in the 2016 olympics?",
             "correcta" : "c",
             "alt"  : [
@@ -68,6 +74,7 @@
             "used" : false
         },
         {
+            "question_nr" : 7,
             "question" : "Who holds the womens shot put world record?",
             "correcta" : "b",
             "alt"  : [
@@ -79,6 +86,7 @@
             "used" : false
         },
         {
+            "question_nr" : 8,
             "question" : "How many metres is 1 english mile?",
             "correcta" : "a",
             "alt"  : [
@@ -90,7 +98,7 @@
             "used" : false
         },
         {
-            "question_nr" :
+            "question_nr" : 9,
             "question" : "Which country has the most world championship gold medals of all time?",
             "correcta" : "d",
             "alt"  : [
