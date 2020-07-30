@@ -25,7 +25,7 @@ while qlimit == False:
     else:
         pass
 
-    if qnr == 6:
+    if qnr == 8:
         qlimit = True
 
 print('Your score was', score, "/", qnr)

@@ -66,6 +66,40 @@
                 "d. Kirani James"
             ],
             "used" : false
+        },
+        {
+            "question" : "Who holds the womens shot put world record?",
+            "correcta" : "b",
+            "alt"  : [
+                "a. Lijao Gong",
+                "b. Natalya Lisovskaya",
+                "c. Helena Fibingerová",
+                "d. Ilona Slupianek"
+            ],
+            "used" : false
+        },
+        {
+            "question" : "How many metres is 1 english mile?",
+            "correcta" : "a",
+            "alt"  : [
+                "a. 1609,3m",
+                "b. 1632,2m",
+                "c. 1607,4m",
+                "d. 1000m"
+            ],
+            "used" : false
+        },
+        {
+            "question_nr" :
+            "question" : "Which country has the most world championship gold medals of all time?",
+            "correcta" : "d",
+            "alt"  : [
+                "a. Russia/Soviet Union",
+                "b. Kenya",
+                "c. Germany",
+                "d. USA"
+            ],
+            "used" : false
         }
     ]   
 }
