@@ -2,7 +2,7 @@ import random
 import json
 qnr = 0  #number of questions
 qlimit = False   #question limit(if all questions are used)
-score = 0    #your score
+score = 0    #users score
 
 
 with open('questions.json') as f:  
