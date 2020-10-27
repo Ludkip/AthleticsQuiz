@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "question_nr" : 1,
+            "question" : "Write queston here",
+            "correcta" : "the correct answer. a, b, c or d",
+            "alt" : [
+                "a. option a",
+                "b. option b",
+                "c. option c",
+                "d. option d"
+            ],
+            "used" : false
+        }
+    ]   
+}
