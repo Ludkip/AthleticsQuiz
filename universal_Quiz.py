@@ -1,8 +1,9 @@
 import random
 import json
-qnr = 0
-qlimit = False
-score = 0
+qnr = 0  #number of questions
+qlimit = False   #question limit(if all questions are used)
+score = 0    #your score
+
 
 with open('questions.json') as f:  
     data =json.load(f)
@@ -17,7 +18,7 @@ while qlimit == False:
         answer = input()
         if answer == live['correcta']:
             print('correct answer')
-            score = score + 1
+            score = score +1
 
         else:
             print('wrong answer')
