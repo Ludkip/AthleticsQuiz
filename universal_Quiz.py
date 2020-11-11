@@ -26,7 +26,7 @@ while qlimit == False:
     else:
         pass
 
-    if qnr == 9:
+    if qnr == len(data['questions']):
         qlimit = True
 
 print('Your score was', score, "/", qnr)
